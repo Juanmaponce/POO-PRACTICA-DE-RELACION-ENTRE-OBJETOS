@@ -8,8 +8,8 @@ namespace CASOS.Caso6
 {
     public class Empleado
     {
-        public string nombre { get; set; }
-        public string apellido { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
         public string CUIL { get; set; }
         public DatosContacto DatosContacto { get; set; }
     }

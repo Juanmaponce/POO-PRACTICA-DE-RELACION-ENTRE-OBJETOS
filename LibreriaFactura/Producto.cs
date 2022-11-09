@@ -8,6 +8,18 @@ namespace LibreriaFactura
 {
     public class Producto
     {
+        public Producto()
+        {
+        }
+
+        public Producto(string nombre, double precio, Categoria categoria, List<DetalleFactura> detallesFactura)
+        {
+            Nombre = nombre;
+            Precio = precio;
+            Categoria = categoria;
+            DetallesFactura = detallesFactura;
+        }
+
         public string Nombre { get; set; }
 
         public double Precio { get; set; }
